@@ -1,0 +1,18 @@
+{
+  "queryType": "search",
+  "dataSource": "tbd-origin",
+  "granularity": "day",
+  "searchDimensions": [
+    "eventType"
+  ],
+  "query": {
+    "type": "insensitive_contains",
+    "value": "TYPE1"
+  },
+  "sort" : {
+    "type": "lexicographic"
+  },
+  "intervals": [
+    "2018-05-13T00:00:00.000/2018-05-15T00:00:00.000"
+  ]
+}
